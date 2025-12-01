@@ -137,8 +137,7 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Focused on creating intuitive and performant web experiences.
-            Bridging the gap between design and development.
+            Motivated IT professional transitioning from web development into the security field, backed by Help Desk experience and Google certifications in IT Support and Cybersecurity. Currently starting a Cyberdefense degree after completing one year of Computer Science, and seeking an IT Support or Analyst role to apply my technical background, troubleshooting skills, and growing expertise in protecting systems and organizational processes.
           </p>
         </div>
       </motion.section>
