@@ -159,7 +159,7 @@ function MagneticSocialLink({
 export default function Personal() {
   return (
     <motion.main
-      className="space-y-24"
+      className="space-y-24 pt-10"
       variants={VARIANTS_CONTAINER}
       initial="hidden"
       animate="visible"
@@ -187,8 +187,10 @@ export default function Personal() {
               className="underline hover:text-zinc-950 dark:hover:text-zinc-50"
             >
               Cybersecurity
-            </a>
-            . Currently starting a Cyberdefense degree after completing one year of Computer Science, and seeking an IT Support or Analyst role to apply my technical background, troubleshooting skills, and growing expertise in protecting systems and organizational processes.
+            </a>.
+            <br />
+            <br />
+            Currently starting a Cyberdefense degree after completing one year of Computer Science, and seeking an IT Support or Analyst role to apply my technical background, troubleshooting skills, and growing expertise in protecting systems and organizational processes.
           </p>
         </div>
       </motion.section>
