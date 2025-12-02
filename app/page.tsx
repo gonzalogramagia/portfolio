@@ -1,4 +1,5 @@
 'use client'
+import { useEffect } from 'react'
 import { motion } from 'motion/react'
 import { XIcon } from 'lucide-react'
 import { Spotlight } from '@/components/ui/spotlight'
@@ -158,6 +159,13 @@ function MagneticSocialLink({
 }
 
 export default function Personal() {
+  useEffect(() => {
+    if (window.location.search) {
+      const newUrl = window.location.pathname + window.location.hash
+      window.history.replaceState({}, '', newUrl)
+    }
+  }, [])
+
   return (
     <motion.main
       className="space-y-24 pt-10"
