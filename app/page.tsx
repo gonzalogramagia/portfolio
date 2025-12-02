@@ -170,7 +170,25 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Motivated IT professional transitioning from web development into the security field, backed by Help Desk experience and Google certifications in IT Support and Cybersecurity. Currently starting a Cyberdefense degree after completing one year of Computer Science, and seeking an IT Support or Analyst role to apply my technical background, troubleshooting skills, and growing expertise in protecting systems and organizational processes.
+            Motivated IT professional transitioning from web development into the security field, backed by Help Desk experience and Google certifications in{' '}
+            <a
+              href="https://drive.google.com/file/d/1NcfLthcQsSNLW4qNpr8Bpdlvayn87Lkb/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-zinc-950 dark:hover:text-zinc-50"
+            >
+              IT Support
+            </a>{' '}
+            and{' '}
+            <a
+              href="https://drive.google.com/file/d/1TjWWtZt7LI3_fYqzr289CH52Ums2Aliv/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-zinc-950 dark:hover:text-zinc-50"
+            >
+              Cybersecurity
+            </a>
+            . Currently starting a Cyberdefense degree after completing one year of Computer Science, and seeking an IT Support or Analyst role to apply my technical background, troubleshooting skills, and growing expertise in protecting systems and organizational processes.
           </p>
         </div>
       </motion.section>
