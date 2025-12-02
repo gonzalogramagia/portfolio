@@ -223,6 +223,21 @@ export default function Personal() {
                 <p className="text-base text-zinc-600 dark:text-zinc-400">
                   {project.description}
                 </p>
+                {project.github && (
+                  <a
+                    className="mt-2 flex items-center text-sm text-zinc-500 underline hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50"
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="/github-white-logo.webp"
+                      alt="GitHub Logo"
+                      className="mr-2 h-4 w-4"
+                    />
+                    Go to GitHub repository
+                  </a>
+                )}
               </div>
             </div>
           ))}

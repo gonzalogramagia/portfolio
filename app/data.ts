@@ -5,6 +5,7 @@ type Project = {
   video?: string
   image?: string
   youtube?: string
+  github?: string
   id: string
 }
 
@@ -36,6 +37,7 @@ export const PROJECTS: Project[] = [
       'Web app for UNC students to track workouts with personalized routines and social features. Built with Go, React, and Supabase.',
     link: 'https://entrenar.app/',
     image: '/entrenar-app.png',
+    github: 'https://github.com/gonzalogramagia/entrenar',
     id: 'project1',
   },
   {
@@ -44,14 +46,16 @@ export const PROJECTS: Project[] = [
     link: 'https://www.alianzalalibertadavanzacordoba.com.ar/admin/secure-login/',
     youtube:
       'qX0PC89YqlY',
+    github: 'https://github.com/bouchardista/alianza-la-libertad-avanza',
     id: 'project2',
   },
   {
     name: 'Moovimiento.com',
     description:
       'Modern landing page for a custom nut mix business featuring checkout integration. Built with Next.js 14, TypeScript, and Tailwind CSS.',
-    link: 'https://moovimiento.com',
+    link: 'https://mas.moovimiento.com',
     image: '/moovimiento-com.png',
+    github: 'https://github.com/moovimiento/mas',
     id: 'project3',
   },
   {
@@ -60,6 +64,7 @@ export const PROJECTS: Project[] = [
       'Academic portal for Algoritmos I students at FAMAF UNC to access resources and exam tools. Built with Astro.js.',
     link: 'https://algoritmos1.com',
     image: '/algoritmos1-com.png',
+    github: 'https://github.com/gonzalogramagia/algoritmos',
     id: 'project4',
   },
 ]
