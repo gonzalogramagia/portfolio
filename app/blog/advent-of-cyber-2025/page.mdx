@@ -1,13 +1,14 @@
 export const metadata = {
   title: 'Hacking Through the Holidays: My Advent of Cyber 2025 Experience',
   description:
-    'Design and artificial intelligence (AI) are increasingly intertwined, driving innovation across industries. As technology evolves, the role of design engineering is more critical than ever, bridging creativity and functionality.',
+    'This year I am participating in TryHackMe\'s Advent of Cyber 2025. Here I will document my daily progress, learning about offensive and defensive security, from Linux to AI in cybersecurity.',
   alternates: {
     canonical: '/blog/advent-of-cyber-2025',
   },
 };
 
 import Link from 'next/link'
+import { TryHackMeBadge } from '../../../components/tryhackme-badge'
 
 # Hacking Through the Holidays: My Advent of Cyber 2025 Experience
 
@@ -17,7 +18,52 @@ import Link from 'next/link'
   caption="https://tryhackme.com/adventofcyber25"
 />
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Christmas has come early for cybersecurity enthusiasts! This year I've joined TryHackMe's **Advent of Cyber 2025**, an annual event offering daily security challenges for 24 days. It's a fantastic opportunity to learn new skills, brush up on fundamental concepts, and of course, do some hacking while enjoying the holidays!
+
+Here I will be sharing my progress and what I learn in each challenge.
+
+<TryHackMeBadge />
+
+## 0) Advent of Cyber Prep Track
+
+Before the main event started, I completed the "Prep Track". It was a series of warm-up tasks designed to get beginners ready (and refresh the memory of veterans) for what's coming. It covered essential basic concepts to ensure everyone is ready for the daily challenges.
+
+## 1) Linux CLI - Shells Bells
+
+**Topic:** Introduction to the Linux Command Line.
+
+Day 1 started with the basics but fundamental: the Linux terminal. "Shells Bells" took us to explore the command-line interface (CLI), learning how to navigate the file system, manipulate files, and use essential commands. It was an excellent reminder of why Linux is the operating system par excellence in cybersecurity.
+
+![Day 1 Screenshot](/thm-aoc2025-1.webp)
+*(Day 1 Challenge: Shells Bells)*
+
+## 2) Phishing - Merry Clickmas
+
+**Topic:** Social Engineering and Phishing.
+
+Day 2 got interesting with "Merry Clickmas". We learned how to use the **Social-Engineer Toolkit (SET)** to simulate phishing attacks. The challenge demonstrated how easy it can be to trick users into handing over their credentials and the importance of always being alert to suspicious emails.
+
+## 3) Splunk Basics - Did you SIEM?
+
+**Topic:** Log Monitoring and Analysis with Splunk.
+
+On day 3, we delved into the world of defense (Blue Team) with "Did you SIEM?". We learned to ingest and parse custom logs using **Splunk**, one of the most popular SIEM (Security Information and Event Management) tools. It was great to see how suspicious activities can be detected by analyzing large volumes of data.
+
+![Day 3 Screenshot](/thm-aoc2025-3.webp)
+*(Day 3 Challenge: Did you SIEM?)*
+
+## 4) AI in Security - old sAInt nick
+
+**Topic:** Artificial Intelligence in Cybersecurity.
+
+Day 4, "old sAInt nick", showed us the power of AI. We explored how artificial intelligence can be used both to attack and defend systems. It is fascinating (and a bit scary) to see how these technologies are reshaping the security landscape.
+
+![Day 4 Screenshot](/thm-aoc2025-4.webp)
+*(Day 4 Challenge: old sAInt nick)*
+
+---
+
+That's all for now! I will keep updating this post as I progress through the challenges. Stay tuned!
 
 <div className="mt-24 mb-0">
   <Link href="/#blog" className="text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50 underline">
