@@ -133,6 +133,12 @@ export const EDUCATION: WorkExperience[] = [
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    title: 'Solving One Problem a Day: My Codeforces Journey',
+    description: 'Competitive Programming Meets Daily Discipline. My journey solving Codeforces problems consistently while learning Python with CS50.',
+    link: '/blog/codeforces-journey',
+    uid: 'blog-2',
+  },
+  {
     title: 'Hacking Through the Holidays: My Advent of Cyber 2025 Experience',
     description: 'A daily journey through TryHackMe\'s cybersecurity challenges, learning new skills and solving puzzles.',
     link: '/blog/advent-of-cyber-2025',
