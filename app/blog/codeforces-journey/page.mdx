@@ -8,6 +8,8 @@ export const metadata = {
 };
 
 import Link from 'next/link'
+import { Spoiler } from '../../../components/spoiler'
+import { CodeforcesNav, ProblemSection } from './codeforces-components'
 
 # Solving One Problem a Day: My Codeforces Journey
 
@@ -26,13 +28,11 @@ Rather than jumping randomly between problems, I decided on a simple and sustain
 
 ✅ Solve ~1 problem per day
 
-✅ Work through problems in [order of how many times they were solved](https://codeforces.com/problemset?order=BY_RATING_ASC) (starting with the most popular)
+✅ Work through problems in [order of how many times they were solved](https://codeforces.com/problemset?order=BY_RATING_ASC)
 
 ✅ Focus on understanding the logic, not just getting AC
 
 ✅ Solve everything in Python
-
-✅ [Upload each solution to GitHub](https://github.com/gonzalogramagia/codeforces) for tracking and review
 
 This structure removes decision fatigue and keeps progress steady, even on busy days.
 
@@ -52,55 +52,175 @@ show up constantly in competitive programming problems. Many Codeforces tasks fe
 
 ## Completed Challenges So Far
 
-### 1) Team — Codeforces 231A
+<CodeforcesNav />
 
-**Topic:** Conditionals and Counting
+<ProblemSection id={1}>
 
-This was a perfect warm‑up problem. Given multiple team members’ opinions (0 or 1), the task is to count how many problems the team will actually solve based on majority agreement.
-
-**Key takeaways:**
-
-*   parsing input correctly
-*   summing boolean/int values
-*   translating a word problem into simple logic
-
-### 2) Watermelon — Codeforces 4A
+### 1) Watermelon ([Link](https://codeforces.com/problemset/problem/4/A))
 
 **Topic:** Even numbers and edge cases
 
-A classic beginner problem. The challenge looks trivial at first, but it teaches an important lesson: edge cases matter.
+A classic beginner problem. The challenge looks trivial at first, but it teaches an important lesson: edge cases matter. The watermelon must be split into two even, positive parts.
 
-The watermelon must be split into two even, positive parts. That small constraint eliminates several naïve solutions.
+<Spoiler>
+```python
+w = int(input())
+ 
+if w > 2 and w % 2 == 0:
+    print("YES")
+else:
+    print("NO")
+```
+</Spoiler>
 
-**Lesson learned:** always re‑read the problem statement carefully.
+</ProblemSection>
 
-### 3) Way Too Long Words — Codeforces 71A
+<ProblemSection id={2}>
+
+### 2) Way Too Long Words ([Link](https://codeforces.com/problemset/problem/71/A))
 
 **Topic:** Strings and indexing
 
 This problem introduced basic string manipulation: abbreviating long words by keeping the first and last character and replacing the middle with a number.
 
-**Skills practiced:**
+<Spoiler>
+```python
+n = int(input())
+ 
+for _ in range(n):
+    w = input().strip()
+ 
+    if len(w) > 10:
+        first_letter = w[0]
+        letters_between = len(w[1:-1])
+        last_letter = w[-1]
+        print(first_letter + str(letters_between) + last_letter)
+    else:
+        print(w)
+```
+</Spoiler>
 
-*   string indexing
-*   slicing
-*   converting integers to strings
+</ProblemSection>
 
-It’s a great example of how simple operations can solve a problem cleanly when you understand Python strings well.
+<ProblemSection id={3}>
 
-## Code Organization & GitHub
+### 3) Team ([Link](https://codeforces.com/problemset/problem/231/A))
 
-All my solutions are uploaded to [GitHub](https://github.com/gonzalogramagia/codeforces), one file per problem, written as cleanly and readably as possible:
+**Topic:** Conditionals and Counting
 
-*   clear variable names
-*   minimal but meaningful logic
-*   no unnecessary complexity
+Given multiple team members’ opinions (0 or 1), the task is to count how many problems the team will actually solve based on majority agreement.
 
-This helps me:
+<Spoiler>
+```python
+n = int(input())
+ 
+solutions = 0
+ 
+for _ in range(n):
+    votes = list(map(int,input().split()))
+    # input() → "1 0 1" (a single string)
+    # split() → ["1", "0", "1"] (list of strings)
+    # map(int, ...) → 1, 0, 1 <iterator> producing integers
+    # list(...) → [1, 0, 1] (list of integers)
+    consensus = 0
+    for v in votes:
+        if v:
+            consensus += 1
+    if consensus > 1:
+        solutions += 1
+ 
+print(solutions)
+```
+</Spoiler>
 
-*   track progress over time
-*   revisit older problems
-*   build a public portfolio of consistent practice
+</ProblemSection>
+
+<ProblemSection id={4}>
+
+### 4) Bit++ ([Link](https://codeforces.com/problemset/problem/282/A))
+
+**Topic:** Simulation and String Parsing
+
+A simple simulation problem where we need to increment or decrement a variable based on the input statement (e.g., "X++", "--X").
+
+<Spoiler>
+```python
+n = int(input())	# 1 <= n <= 150
+ 
+result = 0
+ 
+for _ in range(n):
+	character = input()
+	match character[0]:
+		case "X":
+			if character[1] == "+":
+				result += 1
+			else:
+				result -= 1
+		case "+":
+			result += 1
+		case "-":
+			result -= 1
+ 
+print(result)
+```
+</Spoiler>
+
+</ProblemSection>
+
+<ProblemSection id={5}>
+
+### 5) Next Round ([Link](https://codeforces.com/contest/158/problem/A))
+
+**Topic:** Arrays and Filtering
+
+We need to determine how many participants advance to the next round based on a score threshold.
+
+<Spoiler>
+```python
+nk = input().split()
+n = int(nk[0])
+k = int(nk[1])
+ 
+# better alternative: n, k = map(int, input().split())
+ 
+scores = list(map(int, input().split()))
+kth_score = scores[k-1]
+ 
+i = 0
+ 
+for score in scores:
+	if score < kth_score or score == 0:
+		break
+	i += 1
+ 
+print(i)
+```
+</Spoiler>
+
+</ProblemSection>
+
+<ProblemSection id={6}>
+
+### 6) Domino piling ([Link](https://codeforces.com/problemset/problem/50/A))
+
+**Topic:** Math and Geometry
+
+Calculating the maximum number of dominoes that can fit in a rectangular board.
+
+<Spoiler>
+```python
+h, w = map(int, input().split())
+ 
+squares = h * w
+ 
+print(int(squares / 2))
+```
+</Spoiler>
+
+</ProblemSection>
+
+<CodeforcesNav />
 
 ## Why This Matters (Especially for Cybersecurity)
 
