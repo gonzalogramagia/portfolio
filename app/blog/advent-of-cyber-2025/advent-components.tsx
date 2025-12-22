@@ -38,6 +38,16 @@ export const challenges: ChallengeData[] = [
 export function AdventNav() {
     const [activeCategory, setActiveCategory] = useState<Category>('All')
 
+    useEffect(() => {
+        const handleFilterChange = (e: CustomEvent) => {
+            setActiveCategory(e.detail as Category)
+        }
+        window.addEventListener('advent-filter-change', handleFilterChange as EventListener)
+        return () => {
+            window.removeEventListener('advent-filter-change', handleFilterChange as EventListener)
+        }
+    }, [])
+
     const categories: Category[] = ['All', 'Blue Team', 'Red Team', 'Web Security', 'AI Security', 'Systems & Cloud', 'General']
 
     const filteredChallenges = activeCategory === 'All'
@@ -54,12 +64,12 @@ export function AdventNav() {
                     <button
                         key={cat}
                         onClick={() => {
-                            setActiveCategory(cat)
+                            // Dispatch event to sync all Navs and Sections
                             window.dispatchEvent(new CustomEvent('advent-filter-change', { detail: cat }))
                         }}
                         className={`px-3 py-1 text-sm rounded-full transition-colors ${activeCategory === cat
-                                ? 'bg-blue-600 text-white'
-                                : 'bg-zinc-200 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 hover:bg-zinc-300 dark:hover:bg-zinc-700'
+                            ? 'bg-blue-600 text-white'
+                            : 'bg-zinc-200 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 hover:bg-zinc-300 dark:hover:bg-zinc-700'
                             }`}
                     >
                         {cat}
