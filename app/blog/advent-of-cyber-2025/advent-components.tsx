@@ -33,6 +33,8 @@ export const challenges: ChallengeData[] = [
     { day: 20, title: 'Race Conditions - Toy to The World', category: 'Web Security' },
     { day: 21, title: 'Malware Analysis - Malhare.exe', category: 'Blue Team' },
     { day: 22, title: 'C2 Detection - Command & Carol', category: 'Blue Team' },
+    { day: 23, title: 'AWS Security - S3cret Santa', category: 'Systems & Cloud' },
+    { day: 24, title: 'Exploitation with cURL - Hoperation Eggsploit', category: 'Red Team' },
 ]
 
 export function AdventNav() {
