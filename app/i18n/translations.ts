@@ -1,0 +1,42 @@
+export const translations = {
+    en: {
+        role: 'IT Support Specialist | Full Stack Developer',
+        about: {
+            part1: 'Motivated IT professional transitioning from web development into the security field, backed by Help Desk experience and Google certifications in ',
+            link1: 'IT Support',
+            part2: ' and ',
+            link2: 'Cybersecurity',
+            part3: '.',
+            part4: 'Currently starting a Cyberdefense degree after completing one year of Computer Science, and seeking an IT Support or Analyst role to apply my technical background, troubleshooting skills, and growing expertise in protecting systems and organizational processes.',
+        },
+        headers: {
+            workExperience: 'Work Experience',
+            selectedProjects: 'Selected Projects',
+            education: 'Education',
+            blog: 'Blog',
+            connect: 'Connect',
+        },
+        connectText: 'Feel free to contact me at ',
+        githubLink: 'Go to GitHub repository',
+    },
+    es: {
+        role: 'Especialista en Soporte IT | Desarrollador Full Stack',
+        about: {
+            part1: 'Profesional de IT motivado transicionando del desarrollo web al campo de la seguridad, respaldado por experiencia en Help Desk y certificaciones de Google en ',
+            link1: 'Soporte IT',
+            part2: ' y ',
+            link2: 'Ciberseguridad',
+            part3: '.',
+            part4: 'Actualmente comenzando la licenciatura en Ciberdefensa luego de completar un año de Ciencias de la Computación, y buscando un rol de Soporte IT o Analista de Ciberseguridad para aplicar mi experiencia técnica, mis habilidades de resolución de problemas y mi creciente experiencia en protección de sistemas y procesos organizacionales.',
+        },
+        headers: {
+            workExperience: 'Experiencia Laboral',
+            selectedProjects: 'Proyectos Destacados',
+            education: 'Educación',
+            blog: 'Blog',
+            connect: 'Contacto',
+        },
+        connectText: 'No dudes en contactarme en ',
+        githubLink: 'Ir al repositorio de GitHub',
+    },
+}

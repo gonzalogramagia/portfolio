@@ -4,6 +4,7 @@ import './globals.css'
 import { Header } from './header'
 import { Footer } from './footer'
 import { ThemeProvider } from 'next-themes'
+import { LanguageProvider } from '@/app/context/LanguageContext'
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -12,7 +13,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://nim-fawn.vercel.app/'),
+  metadataBase: new URL('https://gonzalogramagia.com/'),
   alternates: {
     canonical: '/'
   },
@@ -50,13 +51,15 @@ export default function RootLayout({
           storageKey="theme"
           defaultTheme="dark"
         >
-          <div className="flex min-h-screen w-full flex-col font-[family-name:var(--font-inter-tight)]">
-            <div className="relative mx-auto w-full max-w-screen-sm flex-1 px-4 pt-20">
-              <Header />
-              {children}
-              <Footer />
+          <LanguageProvider>
+            <div className="flex min-h-screen w-full flex-col font-[family-name:var(--font-inter-tight)]">
+              <div className="relative mx-auto w-full max-w-screen-sm flex-1 px-4 pt-20">
+                <Header />
+                {children}
+                <Footer />
+              </div>
             </div>
-          </div>
+          </LanguageProvider>
         </ThemeProvider>
       </body>
     </html>
