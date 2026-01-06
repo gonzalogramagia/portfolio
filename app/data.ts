@@ -255,8 +255,8 @@ export const BLOG_POSTS_EN: BlogPost[] = [
     uid: 'blog-1',
   },
   {
-    title: 'Solving One Problem a Day: My Codeforces Journey',
-    description: 'Competitive Programming Meets Daily Discipline. My journey solving Codeforces problems consistently while learning Python with CS50.',
+    title: 'Solving One Coding Challenge at a Time: My Codeforces Experience',
+    description: 'A daily journey into competitive programming, algorithms, and Python mastery through Codeforces and CS50.',
     link: '/blog/codeforces-journey',
     uid: 'blog-2',
   },
@@ -271,8 +271,8 @@ export const BLOG_POSTS_ES: BlogPost[] = [
     uid: 'blog-1',
   },
   {
-    title: 'Resolviendo un Problema al Día: Mi Viaje en Codeforces',
-    description: 'La Programación Competitiva se encuentra con la Disciplina Diaria. Mi viaje resolviendo problemas de Codeforces consistentemente mientras aprendo Python con CS50.',
+    title: 'Resolviendo Un Desafío de Programación a la Vez: Mi Experiencia en Codeforces',
+    description: 'Un viaje diario hacia la programación competitiva, algoritmos y el dominio de Python a través de Codeforces y CS50.',
     link: '/blog/codeforces-journey',
     uid: 'blog-2',
   },

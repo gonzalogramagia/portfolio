@@ -8,6 +8,8 @@ export const translations = {
             link2: 'Cybersecurity',
             part3: '.',
             part4: 'Currently starting a Cyberdefense degree after completing one year of Computer Science, and seeking an IT Support or Analyst role to apply my technical background, troubleshooting skills, and growing expertise in protecting systems and organizational processes.',
+            englishProficiency: 'English Proficiency: ',
+            c1: 'C1 Advanced (CEFR)',
         },
         headers: {
             workExperience: 'Work Experience',
@@ -28,6 +30,8 @@ export const translations = {
             link2: 'Ciberseguridad',
             part3: '.',
             part4: 'Actualmente comenzando la licenciatura en Ciberdefensa luego de completar un año de Ciencias de la Computación, y buscando un rol de Soporte IT o Analista de Ciberseguridad para aplicar mi experiencia técnica, mis habilidades de resolución de problemas y mi creciente experiencia en protección de sistemas y procesos organizacionales.',
+            englishProficiency: 'Nivel de Inglés: ',
+            c1: 'C1 Advanced (CEFR)',
         },
         headers: {
             workExperience: 'Experiencia Laboral',

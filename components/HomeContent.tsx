@@ -209,6 +209,17 @@ export function HomeContent() {
                         <br />
                         <br />
                         {t.about.part4}
+                        <br />
+                        <br />
+                        {t.about.englishProficiency}
+                        <a
+                            href="https://cert.efset.org/en/VNFN4x"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="underline hover:text-zinc-950 dark:hover:text-zinc-50"
+                        >
+                            {t.about.c1}
+                        </a>
                     </p>
                 </div>
             </motion.section>
