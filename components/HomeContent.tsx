@@ -2,7 +2,8 @@
 
 import { useEffect } from 'react'
 import { motion } from 'motion/react'
-import { XIcon } from 'lucide-react'
+import { XIcon, CopyIcon } from 'lucide-react'
+import { toast } from 'sonner'
 import { Spotlight } from '@/components/ui/spotlight'
 import { Magnetic } from '@/components/ui/magnetic'
 import {
@@ -138,7 +139,9 @@ function MagneticSocialLink({
         <Magnetic springOptions={{ bounce: 0 }} intensity={0.3}>
             <a
                 href={link}
-                className="group relative inline-flex shrink-0 items-center gap-[1px] rounded-full bg-zinc-100 px-2.5 py-1 text-sm text-black transition-colors duration-200 hover:bg-zinc-950 hover:text-zinc-50 dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative inline-flex shrink-0 items-center gap-[1px] rounded-full bg-zinc-100 px-2.5 py-1 text-sm text-black transition-colors duration-200 hover:bg-zinc-950 hover:text-zinc-50 dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700 cursor-pointer"
             >
                 {children}
                 <svg
@@ -448,11 +451,27 @@ export function HomeContent() {
                 transition={TRANSITION_SECTION}
             >
                 <h3 className="mt-[-24px] mb-5 text-lg font-medium">{t.headers.connect}</h3>
-                <p className="mb-5 text-zinc-600 dark:text-zinc-400">
+                <p className="mb-5 flex items-center gap-2 text-zinc-600 dark:text-zinc-400">
                     {t.connectText}
-                    <a className="underline dark:text-zinc-300" href={`mailto:${EMAIL}`}>
+                    <button
+                        onClick={() => {
+                            navigator.clipboard.writeText(EMAIL)
+                            toast.success('Email copied to clipboard!')
+                        }}
+                        className="underline hover:text-zinc-950 dark:text-zinc-300 dark:hover:text-zinc-50 transition-colors cursor-pointer"
+                    >
                         {EMAIL}
-                    </a>
+                    </button>
+                    <button
+                        onClick={() => {
+                            navigator.clipboard.writeText(EMAIL)
+                            toast.success('Email copied to clipboard!')
+                        }}
+                        className="text-zinc-400 hover:text-zinc-950 dark:text-zinc-500 dark:hover:text-zinc-50 transition-colors cursor-pointer"
+                        aria-label="Copy email"
+                    >
+                        <CopyIcon className="h-4 w-4" />
+                    </button>
                 </p>
                 <div className="flex items-center justify-start space-x-3">
                     {SOCIAL_LINKS.map((link) => (

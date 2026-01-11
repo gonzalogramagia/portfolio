@@ -9,7 +9,7 @@ export function LanguageSwitch() {
     return (
         <button
             onClick={toggleLanguage}
-            className="relative flex h-8 w-16 items-center rounded-full bg-zinc-100 p-1 dark:bg-zinc-800"
+            className="relative flex h-8 w-16 items-center rounded-full bg-zinc-100 p-1 dark:bg-zinc-800 cursor-pointer"
             aria-label="Toggle language"
         >
             <motion.div

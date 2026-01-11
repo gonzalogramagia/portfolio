@@ -5,6 +5,7 @@ import { Header } from './header'
 import { Footer } from './footer'
 import { ThemeProvider } from 'next-themes'
 import { LanguageProvider } from '@/app/context/LanguageContext'
+import { Toaster } from 'sonner'
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -59,6 +60,7 @@ export default function RootLayout({
                 <Footer />
               </div>
             </div>
+            <Toaster position="bottom-right" offset={190} duration={1900} />
           </LanguageProvider>
         </ThemeProvider>
       </body>

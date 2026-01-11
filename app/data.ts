@@ -291,7 +291,11 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'LinkedIn',
     link: 'https://www.linkedin.com/in/gonzalogramagia',
-  }
+  },
+  {
+    label: 'Cal',
+    link: 'https://cal.com/gonza',
+  },
 ]
 
 export const EMAIL = 'gonzalogramagia@gmail.com'

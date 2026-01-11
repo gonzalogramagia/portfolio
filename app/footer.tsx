@@ -47,7 +47,7 @@ function ThemeSwitch() {
         return (
           <button
             key={theme.id}
-            className="inline-flex h-7 w-7 items-center justify-center text-zinc-500 transition-colors duration-100 focus-visible:outline-2 data-[checked=true]:text-zinc-950 dark:text-zinc-400 dark:data-[checked=true]:text-zinc-50"
+            className="inline-flex h-7 w-7 items-center justify-center text-zinc-500 transition-colors duration-100 focus-visible:outline-2 data-[checked=true]:text-zinc-950 dark:text-zinc-400 dark:data-[checked=true]:text-zinc-50 cursor-pointer"
             type="button"
             aria-label={`Switch to ${theme.label} theme`}
             data-id={theme.id}
@@ -64,9 +64,7 @@ export function Footer() {
   return (
     <footer className="mt-24 border-t border-zinc-100 px-0 py-4 dark:border-zinc-800">
       <div className="flex items-center justify-between">
-        <a href="https://catsulecorp.com/" target="_blank">
-          <span className="text-xs text-zinc-500">© 2025 Catsule Corp</span>
-        </a>
+        <span className="text-sm text-zinc-500 relative -top-[1px]">© 2026 | Mens sana in corpore sano</span>
         <div className="text-xs text-zinc-400">
           <ThemeSwitch />
         </div>
