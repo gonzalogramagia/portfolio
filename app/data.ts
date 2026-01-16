@@ -47,7 +47,7 @@ export const PROJECTS_EN: Project[] = [
       'A minimalist emoji picker designed for speed and accessibility. Developed with a focus on clean architecture and UX, featuring custom emojis and bilingual support 😎 Tech Stack: React, TypeScript and Tailwind.',
     link: 'https://milemojis.com/en',
     image: '/milemojis.png',
-    github: 'https://github.com/gonzalogramagia/milemojis',
+    github: 'https://github.com/gonzalogramagia/emojis',
     id: 'project5',
   },
   // {
@@ -95,7 +95,7 @@ export const PROJECTS_ES: Project[] = [
       'Un buscador de emojis minimalista diseñado para ser veloz y accesible. Desarrollado con un fuerte enfoque en arquitectura limpia y experiencia de usuario, con la posibilidad de sumar emojis personalizados y soporte bilingüe 😎 Construido con React, TypeScript y Tailwind.',
     link: 'https://milemojis.com',
     image: '/milemojis.png',
-    github: 'https://github.com/gonzalogramagia/milemojis',
+    github: 'https://github.com/gonzalogramagia/emojis',
     id: 'project5',
   },
   // {
