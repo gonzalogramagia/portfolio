@@ -63,7 +63,7 @@ export const PROJECTS_EN: Project[] = [
     name: 'Moovimiento.com',
     description:
       'Modern web application that allows users to build custom nut mixes. Developed with a strong focus on security, stability, and best practices, simulating real-world prod environments ⚡ Tech Stack: Built with Next.js, TypeScript, and Tailwind.',
-    link: 'https://mas.moovimiento.com/en',
+    link: 'https://moovimiento.com/en',
     image: '/moovimiento-com.png',
     github: 'https://github.com/moovimiento/mas',
     id: 'project3',
@@ -102,7 +102,7 @@ export const PROJECTS_ES: Project[] = [
     name: 'Moovimiento.com',
     description:
       'Aplicación web moderna que permite a los usuarios crear mezclas de frutos secos personalizadas. Desarrollada con un fuerte enfoque en la seguridad, la estabilidad y las mejores prácticas, simulando entornos de producción del mundo real ⚡ Construido con Next.js, TypeScript y Tailwind.',
-    link: 'https://mas.moovimiento.com',
+    link: 'https://moovimiento.com',
     image: '/moovimiento-com.png',
     github: 'https://github.com/moovimiento/mas',
     id: 'project3',
