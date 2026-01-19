@@ -33,24 +33,6 @@ type SocialLink = {
 
 export const PROJECTS_EN: Project[] = [
   {
-    name: 'Hoy.today',
-    description:
-      'A comprehensive productivity dashboard for managing notes, tasks, countdowns, and custom shortcuts. All data is persisted locally via browser storage, ensuring privacy and speed ⚡ Tech Stack: React, TypeScript and Tailwind.',
-    link: 'https://hoy.today/en',
-    image: '/hoy.today.png',
-    github: 'https://github.com/gonzalogramagia/today',
-    id: 'project_hoy_today',
-  },
-  {
-    name: 'Milemojis.com',
-    description:
-      'A minimalist emoji picker designed for speed and accessibility. Developed with a focus on clean architecture and UX, featuring custom emojis and bilingual support 😎 Tech Stack: React, TypeScript and Tailwind.',
-    link: 'https://milemojis.com/en',
-    image: '/milemojis.png',
-    github: 'https://github.com/gonzalogramagia/emojis',
-    id: 'project5',
-  },
-  {
     name: 'Entrenar.app',
     description:
       'Originally started as a workout tracking platform for UNC students. The project is built with a strong emphasis on security, reliability, and real-world system design 💪 Tech Stack: Built with Go, React, and Supabase.',
@@ -68,14 +50,11 @@ export const PROJECTS_EN: Project[] = [
     github: 'https://github.com/moovimiento/mas',
     id: 'project3',
   },
-]
-
-export const PROJECTS_ES: Project[] = [
   {
     name: 'Hoy.today',
     description:
-      'Un dashboard de productividad integral para gestionar notas, tareas, cuentas regresivas y atajos personalizados. Con emojis listos para usar y soporte bilingüe. Todos los datos se guardan localmente para garantizar privacidad y velocidad ⚡ Construido con React, TypeScript y Tailwind.',
-    link: 'https://hoy.today',
+      'A comprehensive productivity dashboard for managing notes, tasks, countdowns, and custom shortcuts. All data is persisted locally via browser storage, ensuring privacy and speed ⚡ Tech Stack: React, TypeScript and Tailwind.',
+    link: 'https://hoy.today/en',
     image: '/hoy.today.png',
     github: 'https://github.com/gonzalogramagia/today',
     id: 'project_hoy_today',
@@ -83,12 +62,15 @@ export const PROJECTS_ES: Project[] = [
   {
     name: 'Milemojis.com',
     description:
-      'Un buscador de emojis minimalista diseñado para ser veloz y accesible. Desarrollado con un fuerte enfoque en arquitectura limpia y experiencia de usuario, con la posibilidad de sumar emojis personalizados y soporte bilingüe 😎 Construido con React, TypeScript y Tailwind.',
-    link: 'https://milemojis.com',
+      'A minimalist emoji picker designed for speed and accessibility. Developed with a focus on clean architecture and UX, featuring custom emojis and bilingual support 😎 Tech Stack: React, TypeScript and Tailwind.',
+    link: 'https://milemojis.com/en',
     image: '/milemojis.png',
     github: 'https://github.com/gonzalogramagia/emojis',
     id: 'project5',
   },
+]
+
+export const PROJECTS_ES: Project[] = [
   {
     name: 'Entrenar.app',
     description:
@@ -106,6 +88,24 @@ export const PROJECTS_ES: Project[] = [
     image: '/moovimiento-com.png',
     github: 'https://github.com/moovimiento/mas',
     id: 'project3',
+  },
+  {
+    name: 'Hoy.today',
+    description:
+      'Un dashboard de productividad integral para gestionar notas, tareas, cuentas regresivas y atajos personalizados. Con emojis listos para usar y soporte bilingüe. Todos los datos se guardan localmente para garantizar privacidad y velocidad ⚡ Construido con React, TypeScript y Tailwind.',
+    link: 'https://hoy.today',
+    image: '/hoy.today.png',
+    github: 'https://github.com/gonzalogramagia/today',
+    id: 'project_hoy_today',
+  },
+  {
+    name: 'Milemojis.com',
+    description:
+      'Un buscador de emojis minimalista diseñado para ser veloz y accesible. Desarrollado con un fuerte enfoque en arquitectura limpia y experiencia de usuario, con la posibilidad de sumar emojis personalizados y soporte bilingüe 😎 Construido con React, TypeScript y Tailwind.',
+    link: 'https://milemojis.com',
+    image: '/milemojis.png',
+    github: 'https://github.com/gonzalogramagia/emojis',
+    id: 'project5',
   },
 ]
 
@@ -266,13 +266,13 @@ export const BLOG_POSTS_EN: BlogPost[] = [
 export const BLOG_POSTS_ES: BlogPost[] = [
   {
     title: 'Hackeando en las Fiestas: Mi Experiencia en Advent of Cyber 2025',
-    description: 'Un viaje diario a través de los desafíos de ciberseguridad de TryHackMe, aprendiendo nuevas habilidades y resolviendo acertijos.',
+    description: 'Un viaje diario a través de los desafíos de ciberseguridad de TryHackMe, aprendiendo nuevas habilidades y resolviendo ejercicios.',
     link: '/es/blog/advent-of-cyber-2025',
     uid: 'blog-1',
   },
   {
     title: 'Resolviendo Un Desafío de Programación a la Vez: Mi Experiencia en Codeforces',
-    description: 'Un viaje hacia la programación competitiva como hobby serio y e-sport de fin de semana.',
+    description: 'La programación competitiva como hobby serio (e-sport) de fin de semana.',
     link: '/es/blog/codeforces-journey',
     uid: 'blog-2',
   },
