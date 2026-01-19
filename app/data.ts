@@ -64,7 +64,7 @@ export const PROJECTS_EN: Project[] = [
     description:
       'A minimalist emoji picker designed for speed and accessibility. Developed with a focus on clean architecture and UX, featuring custom emojis and bilingual support 😎 Tech Stack: React, TypeScript and Tailwind.',
     link: 'https://milemojis.com/en',
-    image: '/milemojis.png',
+    image: '/milemojis-com.png',
     github: 'https://github.com/gonzalogramagia/emojis',
     id: 'project5',
   },
@@ -103,7 +103,7 @@ export const PROJECTS_ES: Project[] = [
     description:
       'Un buscador de emojis minimalista diseñado para ser veloz y accesible. Desarrollado con un fuerte enfoque en arquitectura limpia y experiencia de usuario, con la posibilidad de sumar emojis personalizados y soporte bilingüe 😎 Construido con React, TypeScript y Tailwind.',
     link: 'https://milemojis.com',
-    image: '/milemojis.png',
+    image: '/milemojis-com.png',
     github: 'https://github.com/gonzalogramagia/emojis',
     id: 'project5',
   },
@@ -250,7 +250,7 @@ export const EDUCATION_ES: WorkExperience[] = [
 export const BLOG_POSTS_EN: BlogPost[] = [
   {
     title: 'Hacking Through the Holidays: My Advent of Cyber 2025 Experience',
-    description: 'A daily journey through TryHackMe\'s cybersecurity challenges, learning new skills and solving puzzles.',
+    description: 'A daily journey through TryHackMe\'s cybersecurity challenges, learning new skills and solving exercises.',
     link: '/blog/advent-of-cyber-2025',
     uid: 'blog-1',
   },

@@ -29,7 +29,7 @@ export const translations = {
             part2: ' y ',
             link2: 'Ciberseguridad',
             part3: '.',
-            part4: 'Actualmente comenzando la licenciatura en Ciberdefensa luego de completar un año de Ciencias de la Computación, y buscando un rol de Soporte IT o Analista de Ciberseguridad para aplicar mi experiencia técnica, mis habilidades de resolución de problemas y mi creciente experiencia en protección de sistemas y procesos organizacionales. En mi tiempo libre, tomo la programación competitiva como un hobby serio y un e-sport de fin de semana.',
+            part4: 'Actualmente comenzando la licenciatura en Ciberdefensa luego de completar un año de Ciencias de la Computación, y buscando un rol de Soporte IT o Analista de Ciberseguridad para aplicar mi experiencia técnica, mis habilidades de resolución de problemas y mi creciente experiencia en protección de sistemas y procesos organizacionales. En mi tiempo libre, tomo la programación competitiva como un hobby serio (e-sport) de fin de semana.',
             englishProficiency: 'Nivel de Inglés: ',
             c1: 'C1 Avanzado (CEFR)',
         },
