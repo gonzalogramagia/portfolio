@@ -214,6 +214,9 @@ export function HomeContent() {
                         {t.about.part4}
                         <br />
                         <br />
+                        {t.about.part5}
+                        <br />
+                        <br />
                         {t.about.englishProficiency}
                         <a
                             href="https://cert.efset.org/en/VNFN4x"
