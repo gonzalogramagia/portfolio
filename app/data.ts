@@ -35,7 +35,7 @@ export const PROJECTS_EN: Project[] = [
   {
     name: 'Entrenar.app',
     description:
-      'Originally started as a workout tracking platform for UNC students. The project is built with a strong emphasis on security, reliability, and real-world system design 💪 Tech Stack: Built with Go, React, and Supabase.',
+      'Originally started as a training platform for UNC students. Focused on stability, security, and a smooth user experience 💪 Tech Stack: Built with Go, React, and Supabase.',
     link: 'https://entrenar.app/en',
     image: '/entrenar-app.png',
     github: 'https://github.com/gonzalogramagia/entrenar',
@@ -44,7 +44,7 @@ export const PROJECTS_EN: Project[] = [
   {
     name: 'Moovimiento.com',
     description:
-      'Modern web application that allows users to build custom nut mixes. Developed with a strong focus on security, stability, and best practices, simulating real-world prod environments ⚡ Tech Stack: Built with Next.js, TypeScript, and Tailwind.',
+      'E-commerce platform with a custom mix builder. Designed to be intuitive and fast. Prioritizes a smooth, secure navigation and a modern interface ⚡ Tech Stack: Next.js, TypeScript, and Tailwind.',
     link: 'https://moovimiento.com/en',
     image: '/moovimiento-com.png',
     github: 'https://github.com/moovimiento/mas',
@@ -74,7 +74,7 @@ export const PROJECTS_ES: Project[] = [
   {
     name: 'Entrenar.app',
     description:
-      'Originalmente iniciada como una plataforma de seguimiento de entrenamientos para estudiantes de la UNC. El proyecto está construido con un fuerte énfasis en la seguridad, la fiabilidad y el diseño de sistemas del mundo real 💪 Construido con Go, React y Supabase.',
+      'Originalmente iniciada como una plataforma de entrenamientos para estudiantes de la UNC. Enfocada en la estabilidad, la seguridad y una experiencia de usuario fluida 💪 Construido con Go, React y Supabase.',
     link: 'https://entrenar.app/',
     image: '/entrenar-app.png',
     github: 'https://github.com/gonzalogramagia/entrenar',
@@ -83,7 +83,7 @@ export const PROJECTS_ES: Project[] = [
   {
     name: 'Moovimiento.com',
     description:
-      'Aplicación web moderna que permite a los usuarios crear mezclas de frutos secos personalizadas. Desarrollada con un fuerte enfoque en la seguridad, la estabilidad y las mejores prácticas, simulando entornos de producción del mundo real ⚡ Construido con Next.js, TypeScript y Tailwind.',
+      'Plataforma e-commerce con un armador de mixes personalizados. Diseñada para ser intuitiva y rápida. Prioriza una navegación fluida, a la vez que segura, y una interfaz moderna ⚡ Construido con Next.js, TypeScript y Tailwind.',
     link: 'https://moovimiento.com',
     image: '/moovimiento-com.png',
     github: 'https://github.com/moovimiento/mas',
@@ -138,7 +138,7 @@ export const WORK_EXPERIENCE_ES: WorkExperience[] = [
     end: '2025',
     link: '/es/work/full-stack-developer',
     id: 'work1',
-    description: 'Empresa de desarrollo de soluciones web a medida.',
+    description: 'Agencia de desarrollo web independiente.',
   },
   {
     company: 'Stämm',
