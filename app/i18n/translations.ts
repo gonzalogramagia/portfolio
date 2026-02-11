@@ -2,12 +2,12 @@ export const translations = {
     en: {
         role: 'IT Support Specialist & Full Stack Developer',
         about: {
-            part1: 'Motivated IT professional transitioning from web development into the security field, backed by Help Desk experience and Google certifications in ',
+            part1: 'IT professional with a unique blend of Help Desk experience and full-stack development skills, transitioning into the security field. Backed by Google certifications in ',
             link1: 'IT Support',
             part2: ' and ',
             link2: 'Cybersecurity',
             part3: '.',
-            part4: 'Currently pursuing a degree in Cyberdefense after completing one year of Computer Science, seeking an IT Support or Analyst role where I can help teams and customers resolve issues efficiently, support reliable day-to-day operations, and keep systems and business processes running smoothly. I bring a strong technical foundation, structured troubleshooting, and a collaborative mindset.',
+            part4: 'Currently working in B2B telecommunications technical support while pursuing a degree in Cyberdefense (after completing one year of Computer Science). I bring a strong technical foundation, structured troubleshooting methodologies, and hands-on experience ensuring operational continuity for enterprise clients.',
             part5: 'In my free time, I compete in programming contests as a hobby, similar to an e-sport.',
             englishProficiency: 'English Proficiency: ',
             c1: 'C1 Advanced (CEFR)',
@@ -25,12 +25,12 @@ export const translations = {
     es: {
         role: 'Especialista en Soporte IT & Desarrollador Full Stack',
         about: {
-            part1: 'Profesional motivado de IT, transicionando del desarrollo web al campo de la seguridad. Respaldado por experiencia en Help Desk y certificaciones de Google en ',
+            part1: 'Profesional de IT con una combinación única de experiencia en Help Desk y habilidades de desarrollo full-stack, transicionando al campo de la seguridad. Respaldado por certificaciones de Google en ',
             link1: 'Soporte IT',
             part2: ' y ',
             link2: 'Ciberseguridad',
             part3: '.',
-            part4: 'Actualmente cursando la licenciatura en Ciberdefensa tras haber completado un año de Ciencias de la Computación, busco un rol de Soporte o Analista IT donde pueda ayudar a equipos y usuarios a resolver problemas de manera eficiente, asegurando la continuidad de las operaciones diarias y contribuyendo a que los sistemas y procesos de negocio se mantengan seguros y estables.',
+            part4: 'Actualmente trabajando en soporte técnico de telecomunicaciones B2B mientras curso la licenciatura en Ciberdefensa (tras haber completado un año de Ciencias de la Computación). Aporto una sólida base técnica, metodologías de solución estructuradas y experiencia práctica asegurando la continuidad operativa para clientes empresariales.',
             part5: 'En mi tiempo libre participo de competencias de programación como hobby, ya que lo considero un e-sport.',
             englishProficiency: 'Nivel de Inglés: ',
             c1: 'C1 Avanzado (CEFR)',
