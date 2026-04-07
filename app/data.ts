@@ -34,27 +34,27 @@ type SocialLink = {
 
 export const PROJECTS_EN: Project[] = [
   {
-    name: 'Hoy.today',
-    description:
-      'A comprehensive productivity dashboard for managing notes, tasks, countdowns, and custom shortcuts. All data is persisted locally via browser storage, ensuring privacy and speed ⚡ Tech Stack: React, TypeScript and Tailwind.',
-    link: 'https://hoy.today/en',
-    image: '/hoy.today.png',
-    github: 'https://github.com/gonzalogramagia/today',
-    id: 'project_hoy_today',
-  },
-  {
     name: 'Entrenar.app',
     description:
-      'Originally started as a training platform for UNC students. Focused on stability, security, and a smooth user experience 💪 Tech Stack: Built with Go, React, and Supabase.',
+      'A comprehensive training platform designed for fitness tracking, exercise logging, and performance monitoring. Focused on stability, security, and a smooth user experience 💪 Tech Stack: Built with Go, React, and Supabase.',
     link: 'https://entrenar.app/en',
     image: '/entrenar-app.png',
     github: 'https://github.com/gonzalogramagia/entrenar',
     id: 'project1',
   },
   {
+    name: 'Hoy.today',
+    description:
+      'A comprehensive productivity dashboard for managing notes, tasks, countdowns, and custom shortcuts. Now featuring Google Authentication and Supabase data sync for a seamless experience ⚡ Tech Stack: React, TypeScript, Tailwind, and Supabase.',
+    link: 'https://hoy.today/en',
+    image: '/hoy.today.png',
+    github: 'https://github.com/gonzalogramagia/today',
+    id: 'project_hoy_today',
+  },
+  {
     name: 'Moovimiento.com',
     description:
-      'E-commerce platform with a custom mix builder. Designed to be intuitive and fast. Prioritizes a smooth, secure navigation and a modern interface ⚡ Tech Stack: Next.js, TypeScript, and Tailwind.',
+      'E-commerce platform with a custom mix builder and a comprehensive admin panel. Designed to be intuitive and fast, prioritizing a smooth, secure navigation and a modern interface ⚡ Tech Stack: Next.js, TypeScript, and Tailwind.',
     link: 'https://moovimiento.com/en',
     image: '/moovimiento-com.png',
     github: 'https://github.com/moovimiento/snack-builder',
@@ -82,27 +82,27 @@ export const PROJECTS_EN: Project[] = [
 
 export const PROJECTS_ES: Project[] = [
   {
-    name: 'Hoy.today',
-    description:
-      'Un dashboard de productividad integral para gestionar notas, tareas, cuentas regresivas y atajos personalizados. Con emojis listos para usar y soporte bilingüe. Todos los datos se guardan localmente para garantizar privacidad y velocidad ⚡ Construido con React, TypeScript y Tailwind.',
-    link: 'https://hoy.today',
-    image: '/hoy.today.png',
-    github: 'https://github.com/gonzalogramagia/today',
-    id: 'project_hoy_today',
-  },
-  {
     name: 'Entrenar.app',
     description:
-      'Originalmente iniciada como una plataforma de entrenamientos para estudiantes de la UNC. Enfocada en la estabilidad, la seguridad y una experiencia de usuario fluida 💪 Construido con Go, React y Supabase.',
+      'Una plataforma integral de entrenamiento diseñada para el seguimiento de rutinas, registro de ejercicios y monitoreo de rendimiento. Enfocada en la estabilidad, la seguridad y una experiencia de usuario fluida 💪 Construido con Go, React y Supabase.',
     link: 'https://entrenar.app/',
     image: '/entrenar-app.png',
     github: 'https://github.com/gonzalogramagia/entrenar',
     id: 'project1',
   },
   {
+    name: 'Hoy.today',
+    description:
+      'Un dashboard de productividad integral para gestionar notas, tareas, cuentas regresivas y atajos personalizados. Ahora con inicio de sesión con Google y sincronización de datos en Supabase ⚡ Construido con React, TypeScript, Tailwind y Supabase.',
+    link: 'https://hoy.today',
+    image: '/hoy.today.png',
+    github: 'https://github.com/gonzalogramagia/today',
+    id: 'project_hoy_today',
+  },
+  {
     name: 'Moovimiento.com',
     description:
-      'Plataforma e-commerce con un armador de mixes personalizados. Diseñada para ser intuitiva y rápida. Prioriza una navegación fluida, a la vez que segura, y una interfaz moderna ⚡ Construido con Next.js, TypeScript y Tailwind.',
+      'Plataforma e-commerce con un armador de mixes personalizados y un panel de administración integral. Diseñada para ser intuitiva y rápida, priorizando una navegación fluida, a la vez que segura, y una interfaz moderna ⚡ Construido con Next.js, TypeScript y Tailwind.',
     link: 'https://moovimiento.com',
     image: '/moovimiento-com.png',
     github: 'https://github.com/moovimiento/snack-builder',
