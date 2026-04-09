@@ -1,4 +1,4 @@
-# 🚀 Gonzalo Gramaglia's Portfolio
+# 🚀 Gonzalo Gramagia's Portfolio
 
 **A modern, high-performance personal portfolio website.**
 

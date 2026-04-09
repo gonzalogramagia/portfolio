@@ -15,7 +15,7 @@ export function Header() {
     <header className="mb-8 flex items-center justify-between">
       <div>
         <Link href={homeLink} className="font-medium text-black dark:text-white">
-          Gonzalo Gramaglia
+          Gonzalo Gramagia
         </Link>
         <Link href={homeLink} className="cursor-pointer block">
           <p className="text-zinc-600 dark:text-zinc-500">

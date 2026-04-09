@@ -61,13 +61,13 @@ export const PROJECTS_EN: Project[] = [
     id: 'project3',
   },
   {
-    name: 'Apex Search',
+    name: 'Ciberportero.com',
     description:
-      'Search engine for a B2B telecommunications technical scripting knowledge base. Designed to quickly find solutions and streamline support workflows 🔎 Tech Stack: React, TypeScript and Tailwind.',
-    link: 'https://gonzalogramagia.github.io/apex-search/en',
-    image: '/apexsearch.png',
-    github: 'https://github.com/gonzalogramagia/apex',
-    id: 'project_apex_search',
+      'Advanced academic ecosystem and study portal for Cyberdefense students (UNDEF). Features an interactive Kanban roadmap, smart dependency tracking, centralized academic calendar, and local progress persistence. 🛡️ Tech Stack: Built with Next.js, Prisma, and NextAuth.',
+    link: 'https://ciberportero.com/en',
+    image: '/ciberportero.png',
+    github: 'https://github.com/gonzalogramagia/ciberportero',
+    id: 'project_ciberportero',
   },
   // {
   //   name: 'Milemojis.com',
@@ -109,13 +109,13 @@ export const PROJECTS_ES: Project[] = [
     id: 'project3',
   },
   {
-    name: 'Apex Search',
+    name: 'Ciberportero.com',
     description:
-      'Buscador de scripting técnico para resolver problemas de telecomunicaciones de clientes B2B. Diseñado para encontrar soluciones rápidamente y optimizar los flujos de soporte 🔎 Construido con React, TypeScript y Tailwind.',
-    link: 'https://gonzalogramagia.github.io/apex-search',
-    image: '/apexsearch.png',
-    github: 'https://github.com/gonzalogramagia/apex',
-    id: 'project_apex_search',
+      'Ecosistema académico avanzado y portal de estudios para estudiantes de Ciberdefensa (UNDEF). Incluye un roadmap Kanban interactivo, seguimiento inteligente de dependencias, calendario académico centralizado y persistencia de progreso local. 🛡️ Construido con Next.js, Prisma y NextAuth.',
+    link: 'https://ciberportero.com/es',
+    image: '/ciberportero.png',
+    github: 'https://github.com/gonzalogramagia/ciberportero',
+    id: 'project_ciberportero',
   },
   // {
   //   name: 'Milemojis.com',

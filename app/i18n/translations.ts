@@ -1,6 +1,6 @@
 export const translations = {
     en: {
-        role: 'IT Support Specialist & Full Stack Developer',
+        role: 'Full Stack Developer & IT Support Specialist',
         about: {
             part1: 'IT professional with a unique blend of Help Desk experience and full-stack development skills, transitioning into the security field. Backed by Google certifications in ',
             link1: 'IT Support',
@@ -23,7 +23,7 @@ export const translations = {
         githubLink: 'Go to GitHub repository',
     },
     es: {
-        role: 'Especialista en Soporte IT & Desarrollador Full Stack',
+        role: 'Desarrollador Full Stack & Especialista en Soporte IT',
         about: {
             part1: 'Profesional de IT con una combinación única de experiencia en Help Desk y habilidades de desarrollo full-stack, transicionando al campo de la seguridad. Respaldado por certificaciones de Google en ',
             link1: 'Soporte IT',
