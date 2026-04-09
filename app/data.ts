@@ -63,7 +63,7 @@ export const PROJECTS_EN: Project[] = [
   {
     name: 'Ciberportero.com',
     description:
-      'Advanced academic ecosystem and study portal for Cyberdefense students (UNDEF). Features an interactive Kanban roadmap, smart dependency tracking, centralized academic calendar, and local progress persistence. 🛡️ Tech Stack: Built with Next.js, Prisma, and NextAuth.',
+      'Advanced academic ecosystem and study portal for Cyberdefense students (UNDEF). Features an interactive Kanban roadmap, centralized academic calendar, and local progress persistence 🛡️ Tech Stack: Next.js, Prisma, and NextAuth.',
     link: 'https://ciberportero.com/en',
     image: '/ciberportero.png',
     github: 'https://github.com/gonzalogramagia/ciberportero',
@@ -111,7 +111,7 @@ export const PROJECTS_ES: Project[] = [
   {
     name: 'Ciberportero.com',
     description:
-      'Ecosistema académico avanzado y portal de estudios para estudiantes de Ciberdefensa (UNDEF). Incluye un roadmap Kanban interactivo, seguimiento inteligente de dependencias, calendario académico centralizado y persistencia de progreso local. 🛡️ Construido con Next.js, Prisma y NextAuth.',
+      'Ecosistema académico avanzado y portal de estudios para estudiantes de Ciberdefensa (UNDEF). Incluye un roadmap Kanban interactivo, calendario académico centralizado y persistencia de progreso local 🛡️ Construido con Next.js, Prisma y NextAuth.',
     link: 'https://ciberportero.com/es',
     image: '/ciberportero.png',
     github: 'https://github.com/gonzalogramagia/ciberportero',
