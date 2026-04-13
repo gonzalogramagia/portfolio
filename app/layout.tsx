@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: '%s | Gonzalo\'s Portfolio',
   },
   description:
-    'Website of the personal portfolio of Gonzalo Gramagia, an IT professional transitioning into Cybersecurity. Showcasing projects, work experience, and insights on web development and security.',
+    'Website of the personal portfolio of Gonzalo Gramagia, a Full Stack Developer & IT Support Specialist. Showcasing projects, work experience, and insights on web development and cybersecurity.',
 };
 
 const geist = Geist({
